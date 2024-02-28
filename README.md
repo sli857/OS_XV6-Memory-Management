@@ -17,29 +17,6 @@ kill_the_process()
 ```
 [- END NEW INSTRUCTIONS -]
 
-# Administrivia
-
-- **Due date**: November 7th, 2023 at 11:59pm.
-- **Handing it in**: 
-  - **Only one person in your group** should copy all of the xv6 files to `~cs537-1/handin/<cslogin>/P5/`.  Each partnership should have one submission (the other partner should have an empty handin for P5).  Please run `make clean` before copying files.
-- Late submissions
-  - Projects may be turned in up to 3 days late but you will receive a penalty of
-10 percentage points for every day it is turned in late.
-  - Slip days: 
-    - In case you need extra time on projects,  you each will have 2 slip days for individual projects and 2 slip days for group projects (4 total slip days for the semester). After the due date we will make a copy of the handin directory for on time grading.
-    - To use a slip day you will submit your files with an additional file `slipdays.txt` in your regular project handin directory. This file should include one thing only and that is a single number, which is the number of slip days you want to use (ie. 1 or 2). Each consecutive day we will make a copy of any directories which contain one of these slipdays.txt files.
-    - After using up your slip days you can get up to 90% if turned in 1 day late, 80% for 2 days late, and 70% for 3 days late. After 3 days we won't accept submissions.
-    - Any exception will need to be requested from the instructors.
-    - Example slipdays.txt
-      ``` c
-      1
-      ```    
-- Some tests are provided at ~cs537-1/tests/P5. There is a README.md file in that directory which contains the instructions to run the tests. The tests are partially complete and you are encouraged to create more tests.
-- Questions: We will be using Piazza for all questions.
-- Collaboration: The assignment must be done by yourself. Copying code (from others) is considered cheating. [Read this](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/dontcheat.html) for more info on what is OK and what is not. Please help us all have a good semester by not doing this.
-- This project is to be done on the [Linux lab machines](https://csl.cs.wisc.edu/docs/csl/2012-08-16-instructional-facilities/),
-so you can learn more about programming in C on a typical UNIX-based platform (Linux).  Your solution will be tested on these machines.
-
 # xv6 Memory Mapping
 
 In this project, you're going to implement `mmap` system call in xv6. The version we ask you to implement is a simplified version of the actual `mmap` in the Linux kernel. This simplification makes our version of mmap slightly different than what you find in Linux. We have pointed out some of these differences in the FAQ section.
